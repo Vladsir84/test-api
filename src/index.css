@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  padding: 0 50px;
+}
+
+.goods-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-item {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.product-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-chars {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chars-wrapper {
+  display: flex;
+}
+
+.product-image {
+  width: 250px;
+  height: 250px;
+}
+
+.product_btn {
+  padding: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btns-wrapper {
+  margin-top: 30px;
+}
+
+.del_btn {
+  background-color: red;
+  margin-left: 15px;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-icon {
+  margin-left: 10px;
+  font-size: 25px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
