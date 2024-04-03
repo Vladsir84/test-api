@@ -73,9 +73,15 @@ body {
   align-items: center;
 }
 
-.delete-icon {
-  margin-left: 10px;
+.btn-icon {
+  margin-left: 20px;
   font-size: 25px;
-  transform: rotate(45deg);
   cursor: pointer;
+  color: green;
+}
+
+.delete {
+  transform: rotate(45deg);
+  color: red;
+  margin-left: 10px;
 }
